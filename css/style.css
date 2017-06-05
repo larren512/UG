@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.intro {
+	background: url("../images/home.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	
+	width: 100%;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.sect {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: teal;
+	background-attachment: fixed;
+}
+
+.subSection {
+	height: 50%;
+	background-color: gray;
+}
+
+.sectOne {
+	background-image: url("../images/tourism.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sectTwo {
+	background-image: url("../images/art_and_culture.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sectThree {
+	background-image: url("../images/jobs.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.sectFour {
+	background-image: url("../images/food.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
