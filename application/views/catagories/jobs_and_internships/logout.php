@@ -1,0 +1,10 @@
+<?php
+	$this->load->library('session');
+	unset(
+			$_SESSION['name'],
+			$_SESSION['email']
+	);
+	$this->session->sess_destroy();
+	header("Location:http://localhost/UG/jobs_and_internships/applicant_home");
+	exit;
+?>
